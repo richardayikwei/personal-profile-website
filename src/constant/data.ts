@@ -2,14 +2,15 @@ import { assets } from "../assets/assests"
 import { Profile } from "../types/profile"
 
 
-export const profile : Profile[] = [
+export const profile: Profile[] = [
     {
+        profilePic: assets.profilePic.profile1,
         name: 'Ayikwei Richard',
         position: 'Frontend Developer',
         motto: 'Change is constant',
         cover: 'I am a front-end developer specializing in the React framework. I am passionate about creating visually appealing websites and apps with  easy to navigate UI"s',
         stack: {
-            css: assets.logos.logo1,
+            css: assets.stackIcons.cssIcon,
             html: assets.stackIcons.htmlIcon,
             javaScript: assets.stackIcons.javascriptIcon,
             jQuery: assets.stackIcons.jqueryIcon,
@@ -17,5 +18,6 @@ export const profile : Profile[] = [
             tailwindCSS: assets.stackIcons.tailwindcssIcon,
             typeScript: assets.stackIcons.typescriptIcon,
         },
-    }
+    },
+    
 ]

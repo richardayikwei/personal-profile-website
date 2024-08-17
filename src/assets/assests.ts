@@ -7,6 +7,7 @@ import reactIcon from './stackIcons/react.svg';
 import tailwindcssIcon from './stackIcons/tailwindcss.svg';
 import typescriptIcon from './stackIcons/typescript.svg';
 import beach from './backgroundImage/beach.jpg'
+import profile1 from './profilePic/profile1.jpg'
 
 
 export const assets = {
@@ -26,6 +27,10 @@ export const assets = {
 
     backgroundImage: {
         beach,
+    },
+
+    profilePic: {
+        profile1
     }
 
 }

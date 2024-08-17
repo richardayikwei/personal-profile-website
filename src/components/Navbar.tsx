@@ -2,15 +2,17 @@ import { assets } from "../assets/assests";
 
 const Navbar = () => {
   return (
-    <div className="flex md:flex-row flex-col items-center container mx-auto justify-between pt-9">
-      <div className="justify-start flex">
+    <div className=" container mx-auto flex md:flex-row flex-col md:justify-between pt-9 items-center text-center">
+
+      <div className="">
         <img
           src={assets.logos.logo1}
           alt="logo"
           className="w-28 rounded-full"
         />
       </div>
-      <div className="w-[500px]  flex justify-between text-[#1f3550] text-[18px]">
+
+      <div className="w-[500px] md:flex-row flex-col flex justify-between text-[#1f3550]  text-[18px]">
         <a
           href="https://github.com/richardayikwei"
           target="blank"
