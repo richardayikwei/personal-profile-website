@@ -7,7 +7,7 @@ function App() {
   return (
     <div
       style={{ backgroundImage: `url(${assets.backgroundImage.beach})` }}
-      className="bg-cover md:w-screen 2xl:h-screen bg-no-repeat"
+      className="bg-cover 2xl:h-screen bg-no-repeat"
     >
       <Navbar />
         {profile.map((richard, idx) => (
