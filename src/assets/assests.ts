@@ -6,8 +6,11 @@ import jqueryIcon from './stackIcons/jquery.svg';
 import reactIcon from './stackIcons/react.svg';
 import tailwindcssIcon from './stackIcons/tailwindcss.svg';
 import typescriptIcon from './stackIcons/typescript.svg';
-import beach from './backgroundImage/beach.jpg'
-import profile1 from './profilePic/profile1.jpg'
+import beach from './backgroundImage/beach.jpg';
+import profile1 from './profilePic/profile1.jpg';
+import githubIcon from './social/github.svg';
+import facebookIcon from './social/icon-facebook.svg';
+import linkedInIcon from './social/linkedin.svg';
 
 
 export const assets = {
@@ -31,6 +34,12 @@ export const assets = {
 
     profilePic: {
         profile1
+    },
+
+    social: {
+        githubIcon,
+        facebookIcon,
+        linkedInIcon
     }
 
 }

@@ -2,32 +2,36 @@ import { assets } from "../assets/assests";
 
 const Navbar = () => {
   return (
-    <div className=" container mx-auto flex md:flex-row flex-col md:justify-between pt-9 items-center text-center">
-
-      <div className="">
+    <div className=" container mx-auto flex md:flex-row flex-col md:justify-end pt-3  text-center">
+      {/* <div className="">
         <img
           src={assets.logos.logo1}
           alt="logo"
           className="w-28 rounded-full"
         />
-      </div>
+      </div> */}
 
-      <div className="w-[500px] md:flex-row flex-col flex justify-between text-[#1f3550]  text-[18px]">
+      <div className="w-[300px] md:flex justify-between text-[#1f3550] hidden">
         <a
           href="https://github.com/richardayikwei"
           target="blank"
-          className="hover:text-[#5089cf]"
+          className="transition ease-linear duration-500 hover:rotate-45"
         >
-          Repository
+          <img src={assets.social.githubIcon} alt="" className="w-11" />
         </a>
         <a
-          href="https://www.linkedin.com/in/richard-ayikwei-48b171112/" target="blank"
-          className="hover:text-[#5089cf]"
+          href="https://www.linkedin.com/in/richard-ayikwei-48b171112/"
+          target="blank"
+          className="transition ease-linear duration-500 hover:rotate-45"
         >
-          LinkedIn
+          <img src={assets.social.linkedInIcon} alt="" className="w-11" />
         </a>
-        <a href="" className="hover:text-[#5089cf]">
-          Facebook
+        <a href="" className="transition ease-linear duration-500 hover:rotate-45">
+          <img
+            src={assets.social.facebookIcon}
+            alt="facebookIcon"
+            className="w-11"
+          />
         </a>
       </div>
     </div>
