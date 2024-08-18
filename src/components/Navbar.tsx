@@ -2,7 +2,7 @@ import { assets } from "../assets/assests";
 
 const Navbar = () => {
   return (
-    <div className=" container mx-auto flex md:flex-row flex-col md:justify-end pt-3  text-center">
+    <div className=" flex md:flex-row flex-col md:justify-end pt-3">
       {/* <div className="">
         <img
           src={assets.logos.logo1}
@@ -11,7 +11,7 @@ const Navbar = () => {
         />
       </div> */}
 
-      <div className="w-[300px] md:flex justify-between text-[#1f3550] hidden">
+      <div className="w-[700px] md:flex justify-around text-[#1f3550] hidden">
         <a
           href="https://github.com/richardayikwei"
           target="blank"

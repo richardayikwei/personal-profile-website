@@ -7,13 +7,38 @@ type ProfileProps = {
 const ProfileInfo = ({ richard }: ProfileProps) => {
   return (
     <div className="flex md:flex-row md:justify-between text-[#1f3550] mt-14 ">
-      <div className=" flex flex-col ">
-        <div className="md:justify-end flex flex-row md:w-96">
+      <div className=" flex flex-col  md:w-1/2 mx-auto">
+        <div className=" flex flex-row">
           <img
             src={richard.profilePic}
             alt="profilePic"
             className="rounded-full max-h-96"
           />
+        </div>
+
+        <div className="space-y-2">
+          <div className="text-3xl">
+            <h1>{richard.name}</h1>
+          </div>
+          <div className="text-2xl">
+            <h2>{richard.position}</h2>
+          </div>
+          <div className="text-xl">
+            <p>{richard.motto}</p>
+          </div>
+          <div className="text-lg lg:w-1/2 flex">
+            <p>{richard.cover}</p>
+          </div>
+
+          {/* <div className=" hidden justify-start">
+          <img src={richard.stack.html} alt="" className="w-20" />
+          <img src={richard.stack.css} alt="" className="w-20" />
+          <img src={richard.stack.javaScript} alt="" className="w-20" />
+          <img src={richard.stack.jQuery} alt="" className="w-20" />
+          <img src={richard.stack.typeScript} alt="" className="w-20" />
+          <img src={richard.stack.react} alt="" className="w-20" />
+          <img src={richard.stack.tailwindCSS} alt="" className="w-20" />
+        </div> */}
         </div>
 
         {/* <div className=" flex-col flex justify-between md:hidden">
@@ -53,30 +78,6 @@ const ProfileInfo = ({ richard }: ProfileProps) => {
         <img src={richard.stack.react} alt="" className="max-w-20" />
         <img src={richard.stack.tailwindCSS} alt="" className="max-w-20" />
       </div>
-      {/* <div className="space-y-2">
-        <div className="text-3xl">
-          <h1>{richard.name}</h1>
-        </div>
-        <div className="text-2xl">
-          <h2>{richard.position}</h2>
-        </div>
-        <div className="text-xl">
-          <p>{richard.motto}</p>
-        </div>
-        <div className="text-lg md:w-1/2 flex">
-          <p>{richard.cover}</p>
-        </div>
-
-        <div className=" hidden justify-start">
-          <img src={richard.stack.html} alt="" className="w-20" />
-          <img src={richard.stack.css} alt="" className="w-20" />
-          <img src={richard.stack.javaScript} alt="" className="w-20" />
-          <img src={richard.stack.jQuery} alt="" className="w-20" />
-          <img src={richard.stack.typeScript} alt="" className="w-20" />
-          <img src={richard.stack.react} alt="" className="w-20" />
-          <img src={richard.stack.tailwindCSS} alt="" className="w-20" />
-        </div>
-      </div> */}
     </div>
   );
 };
