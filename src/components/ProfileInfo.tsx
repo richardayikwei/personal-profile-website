@@ -19,21 +19,21 @@ const ProfileInfo = ({ richard }: ProfileProps) => {
 
           <div className=" flex-col flex justify-between md:hidden  ">
             <a
-              href=""
+              href="#"
               target="blank"
               className="transition ease-linear duration-500 hover:rotate-45"
             >
               <img src={assets.social.githubIcon} alt="" className="w-11" />
             </a>
             <a
-              href=""
+              href="#"
               target="blank"
               className="transition ease-linear duration-500 hover:rotate-45"
             >
               <img src={assets.social.linkedInIcon} alt="" className="w-11" />
             </a>
             <a
-              href=""
+              href="#"
               className="transition ease-linear duration-500 hover:rotate-45"
             >
               <img
