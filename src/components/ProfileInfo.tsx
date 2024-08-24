@@ -7,7 +7,7 @@ type ProfileProps = {
 const ProfileInfo = ({ richard }: ProfileProps) => {
   return (
     <div className="flex md:flex-row text-[#1f3550]  mx-auto container ">
-      <div className=" flex flex-col md:w-1/2 mb-6">
+      <div className="  flex flex-col md:w-1/2 mb-6">
         <div className=" flex flex-row">
           <div>
             <img

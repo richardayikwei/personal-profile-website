@@ -56,7 +56,7 @@ const Welcome = () => {
   );
 
   return (
-    <div className="flex my-10 container mx-auto text-[#1f3550]">
+    <div className="hidden md:flex my-10 container mx-auto text-[#1f3550]">
       <h1 className="text-7xl">
         <span className={`${w}`}>W</span>
         <span className={`${e1}`}>e</span>
