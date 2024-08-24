@@ -6,7 +6,7 @@ type ProfileProps = {
 
 const ProfileInfo = ({ richard }: ProfileProps) => {
   return (
-    <div className="flex md:flex-row text-[#1f3550] mt-14 2xl:mt-56 md:mx-20 mx-10 ">
+    <div className="flex md:flex-row text-[#1f3550]  mx-auto container ">
       <div className=" flex flex-col md:w-1/2 mb-6">
         <div className=" flex flex-row">
           <div>
@@ -45,11 +45,11 @@ const ProfileInfo = ({ richard }: ProfileProps) => {
           </div>
         </div>
 
-        <div className="space-y-2 mt-6">
-          <div className="text-3xl">
-            <h1>{richard.name}</h1>
+        <div className="space-y-2 mt-6 ">
+          <div className="text-4xl bg-[#a3c0e2] w-[264px]">
+            <h1 className="">{richard.name}</h1>
           </div>
-          <div className="text-2xl">
+          <div className="text-2xl bg-[#a3c0e2] w-[218px]">
             <h2>{richard.position}</h2>
           </div>
           <div className="text-xl">
@@ -71,7 +71,7 @@ const ProfileInfo = ({ richard }: ProfileProps) => {
         </div>
       </div>
 
-      <div className=" md:flex md:flex-col hidden md:w-1/2 items-end justify-between">
+      <div className=" md:flex md:flex-col hidden md:w-1/2 items-end  justify-between">
         <img src={richard.stack.html} alt="" className="max-w-20" />
         <img src={richard.stack.css} alt="" className="max-w-20" />
         <img src={richard.stack.javaScript} alt="" className="max-w-20" />

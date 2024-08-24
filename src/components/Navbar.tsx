@@ -2,7 +2,7 @@ import { assets } from "../assets/assests";
 
 const Navbar = () => {
   return (
-    <div className=" flex md:flex-row flex-col md:justify-end pt-3">
+    <div className=" flex md:flex-row flex-col md:justify-end pt-9 container mx-auto">
       {/* <div className="">
         <img
           src={assets.logos.logo1}
@@ -11,11 +11,11 @@ const Navbar = () => {
         />
       </div> */}
 
-      <div className="w-[700px] md:flex justify-around text-[#1f3550] hidden">
+      <div className="w-[700px] h-20 md:flex justify-between items-center bg-[#a3c0e2] hidden">
         <a
           href="https://github.com/richardayikwei"
           target="blank"
-          className="transition ease-linear duration-500 hover:rotate-45"
+          className="transition ease-linear duration-500 hover:rotate-45 pl-6"
         >
           <img
             src={assets.social.githubIcon}
@@ -36,7 +36,7 @@ const Navbar = () => {
         </a>
         <a
           href=""
-          className="transition ease-linear duration-500 hover:rotate-45"
+          className="transition ease-linear duration-500 hover:rotate-45 pr-6"
         >
           <img
             src={assets.social.facebookIcon}
