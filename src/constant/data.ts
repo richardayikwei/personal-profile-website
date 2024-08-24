@@ -1,5 +1,6 @@
 import { assets } from "../assets/assests"
 import { Profile } from "../types/profile"
+import { Projects } from "../types/projects"
 
 
 export const profile: Profile[] = [
@@ -20,4 +21,22 @@ export const profile: Profile[] = [
         },
     },
     
+]
+
+export const projects : Projects[] = [
+    {
+        image: assets.projectImages.trafalgar,
+        title: 'Trafalgar landing page',
+        summary: 'A demo landing page built based on a figma design'
+    },
+    {
+        image: assets.projectImages.porfolio,
+        title: 'Portfolio website',
+        summary: 'A portfolio website of custom design'
+    },
+    {
+        image: assets.projectImages.theBlackWebsite,
+        title: 'The black website',
+        summary: 'A demo website built with jQuery'
+    },
 ]

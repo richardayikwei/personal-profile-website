@@ -11,7 +11,9 @@ import profile1 from './profilePic/profile1.jpg';
 import githubIcon from './social/github.svg';
 import facebookIcon from './social/icon-facebook.svg';
 import linkedInIcon from './social/linkedin.svg';
-
+import porfolio from './projectImages/porfolio.png';
+import trafalgar from './projectImages/trafalgarpage.png';
+import theBlackWebsite from './projectImages/theBlackWebsite.png'
 
 export const assets = {
     logos: {
@@ -40,6 +42,12 @@ export const assets = {
         githubIcon,
         facebookIcon,
         linkedInIcon
+    },
+
+    projectImages: {
+        porfolio,
+        trafalgar,
+        theBlackWebsite
     }
 
 }
