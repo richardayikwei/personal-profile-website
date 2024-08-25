@@ -23,8 +23,8 @@ function App() {
         </div>
         <div className="justify-center flex md:flex-row flex-col pt-8">
           <div className="md:grid md:grid-rows-1 md:grid-cols-3 md:gap-x-10 space-y-6 md:space-y-0">
-            {projects.map((project) => (
-              <ProjectCards project={project} />
+            {projects.map((project, idx) => (
+              <ProjectCards project={project} key={idx} />
             ))}
           </div>
         </div>
