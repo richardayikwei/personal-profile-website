@@ -17,11 +17,11 @@ function App() {
       {profile.map((richard, idx) => (
         <ProfileInfo key={idx} richard={richard} />
       ))}
-      <div className="container mx-auto bg-[#a3c0e2]">
+      <div className="container mx-auto bg-[#a3c0e2] py-10 rounded-3xl">
         <div className="flex justify-center">
-          <h1 className="text-4xl text-[#1f3550]">Projects</h1>
+          <h1 className="text-5xl text-[#1f3550]">Projects</h1>
         </div>
-        <div className="justify-center flex">
+        <div className="justify-center flex pt-8">
           <div className="grid grid-rows-1 grid-cols-3 gap-x-10">
             {projects.map((project) => (
               <ProjectCards project={project} />
