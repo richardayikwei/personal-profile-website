@@ -33,11 +33,11 @@ const ProfileInfo = ({ richard }: ProfileProps) => {
               <img src={assets.social.linkedInIcon} alt="" className="w-11" />
             </a>
             <a
-              href="#"
+              href="https://x.com/ayikwei_richard"
               className="transition ease-linear duration-500 hover:rotate-45"
             >
               <img
-                src={assets.social.facebookIcon}
+                src={assets.social.xIcon}
                 alt="facebookIcon"
                 className="w-11"
               />
