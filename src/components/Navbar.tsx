@@ -35,7 +35,7 @@ const Navbar = () => {
           />
         </a>
         <a
-          href="https://x.com/ayikwei_richard"
+          href="https://x.com/ayikwei_richard" target="blank"
           className="transition ease-linear duration-500 hover:rotate-45 pr-6"
         >
           <img src={assets.social.xIcon} alt="xIcon" className="w-11" />
