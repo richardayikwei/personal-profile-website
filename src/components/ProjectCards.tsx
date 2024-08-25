@@ -6,12 +6,12 @@ type ProjectsProps = {
 
 const ProjectCards = (project: ProjectsProps) => {
   return (
-    <div className="text-[#1f3550] shadow-2xl rounded-3xl bg-white space-y-6 max-w-[300px]">
-      <div className="">
+    <div className="text-[#1f3550] shadow-2xl md:rounded-3xl bg-white space-y-6 md:max-w-[300px]">
+      <div>
         <img
           src={project.project.image}
           alt={project.project.title}
-          className=" rounded-t-3xl"
+          className=" md:rounded-t-3xl"
         />
       </div>
       <div className="mx-auto flex flex-col w-[90%] ">
