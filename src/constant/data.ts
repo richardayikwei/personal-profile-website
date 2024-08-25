@@ -27,16 +27,19 @@ export const projects : Projects[] = [
     {
         image: assets.projectImages.trafalgar,
         title: 'Trafalgar landing page',
-        summary: 'A demo landing page built based on a figma design'
+        summary: 'A demo landing page built with react and  based on a figma design.',
+        link: 'https://trafalgar-react-theta.vercel.app/' 
     },
     {
         image: assets.projectImages.porfolio,
         title: 'Portfolio website',
-        summary: 'A portfolio website of custom design'
+        summary: 'A portfolio website built with react and of custom design.',
+        link: 'https://www.richardayikwei.com/'
     },
     {
         image: assets.projectImages.theBlackWebsite,
         title: 'The black website',
-        summary: 'A demo website built with jQuery'
+        summary: 'A demo website built with jQuery with animation.',
+        link: 'https://the-black-website.vercel.app/'
     },
 ]

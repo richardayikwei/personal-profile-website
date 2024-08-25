@@ -1,7 +1,9 @@
 import Navbar from "./components/Navbar";
 import { assets } from "./assets/assests";
 import { profile } from "./constant/data";
+import { projects } from "./constant/data";
 import ProfileInfo from "./components/ProfileInfo";
+import ProjectCards from "./components/ProjectCards";
 import Welcome from "./components/Welcome";
 
 function App() {
@@ -11,10 +13,22 @@ function App() {
       className="bg-cover min-h-screen bg-no-repeat font-serif"
     >
       <Navbar />
-     <Welcome />
-        {profile.map((richard, idx) => (
-          <ProfileInfo key={idx} richard={richard} />
-        ))}
+      <Welcome />
+      {profile.map((richard, idx) => (
+        <ProfileInfo key={idx} richard={richard} />
+      ))}
+      <div className="container mx-auto bg-[#a3c0e2]">
+        <div className="flex justify-center">
+          <h1 className="text-4xl text-[#1f3550]">Projects</h1>
+        </div>
+        <div className="justify-center flex">
+          <div className="grid grid-rows-1 grid-cols-3 gap-x-10">
+            {projects.map((project) => (
+              <ProjectCards project={project} />
+            ))}
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
