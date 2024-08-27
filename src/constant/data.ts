@@ -31,6 +31,12 @@ export const projects : Projects[] = [
         link: 'https://trafalgar-react-theta.vercel.app/' 
     },
     {
+        image: assets.projectImages.photoGallery,
+        title: 'Photo Gallery',
+        summary: 'A photo gallery built with react and using the fetch API to display images.',
+        link: 'https://photo-gallery-eta-wheat.vercel.app/'
+    },
+    {
         image: assets.projectImages.porfolio,
         title: 'Portfolio website',
         summary: 'A portfolio website built with react and of custom design.',
