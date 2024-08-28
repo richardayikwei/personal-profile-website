@@ -15,7 +15,7 @@ import porfolio from './projectImages/porfolio.png';
 import trafalgar from './projectImages/trafalgarpage.png';
 import theBlackWebsite from './projectImages/theBlackWebsite.png';
 import xIcon from './social/xIcon.png';
-import photoGallery from './projectImages/photoGallery.png'
+import photoGallery from './projectImages/photoGallery.png';
 
 export const assets = {
     logos: {
