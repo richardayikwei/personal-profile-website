@@ -3,13 +3,6 @@ import { assets } from "../assets/assests";
 const Navbar = () => {
   return (
     <div className=" flex md:flex-row flex-col md:justify-end pt-9 container mx-auto">
-      {/* <div className="">
-        <img
-          src={assets.logos.logo1}
-          alt="logo"
-          className="w-28 rounded-full"
-        />
-      </div> */}
 
       <div className="w-[700px] h-20 md:flex justify-between items-center bg-[#a3c0e2] hidden">
         <a
