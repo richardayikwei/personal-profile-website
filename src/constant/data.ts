@@ -33,7 +33,7 @@ export const projects : Projects[] = [
     {
         image: assets.projectImages.photoGallery,
         title: 'Photo Gallery',
-        summary: 'A photo gallery built with react and using the fetch API to display images.',
+        summary: 'A photo gallery built with react using the fetch API with drag and drop capables.',
         link: 'https://photo-gallery-eta-wheat.vercel.app/'
     },
     {
