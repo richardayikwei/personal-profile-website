@@ -23,7 +23,7 @@ const ProfileInfo = ({ richard }: ProfileProps) => {
               <img
                 src={assets.social.githubIcon}
                 alt="github"
-                className="w-11"
+                className="w-11" loading='lazy'
               />
             </a>
             <a
@@ -34,14 +34,14 @@ const ProfileInfo = ({ richard }: ProfileProps) => {
               <img
                 src={assets.social.linkedInIcon}
                 alt="linkedIn"
-                className="w-11"
+                className="w-11" loading='lazy'
               />
             </a>
             <a
               href="https://x.com/ayikwei_richard"
               className="transition ease-linear duration-500 hover:rotate-45"
             >
-              <img src={assets.social.xIcon} alt="x" className="w-11" />
+              <img src={assets.social.xIcon} alt="x" className="w-11" loading='lazy' />
             </a>
           </nav>
         </div>
@@ -53,13 +53,13 @@ const ProfileInfo = ({ richard }: ProfileProps) => {
           <p className="text-xl">{richard.motto}</p>
           <p className="text-lg lg:w-2/3 flex">{richard.cover}</p>
           <div className=" md:hidden justify-start flex-wrap flex">
-            <img src={richard.stack.html} alt="" className="w-20" />
-            <img src={richard.stack.css} alt="" className="w-20" />
-            <img src={richard.stack.javaScript} alt="" className="w-20" />
-            <img src={richard.stack.jQuery} alt="" className="w-20" />
-            <img src={richard.stack.typeScript} alt="" className="w-20" />
-            <img src={richard.stack.react} alt="" className="w-20" />
-            <img src={richard.stack.tailwindCSS} alt="" className="w-20" />
+            <img src={richard.stack.html} alt="" className="w-20" loading="lazy" />
+            <img src={richard.stack.css} alt="" className="w-20" loading="lazy" />
+            <img src={richard.stack.javaScript} alt="" className="w-20" loading="lazy" />
+            <img src={richard.stack.jQuery} alt="" className="w-20" loading="lazy" />
+            <img src={richard.stack.typeScript} alt="" className="w-20" loading="lazy" />
+            <img src={richard.stack.react} alt="" className="w-20" loading="lazy" />
+            <img src={richard.stack.tailwindCSS} alt="" className="w-20" loading="lazy" />
           </div>
         </div>
       </div>
