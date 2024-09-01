@@ -2,9 +2,8 @@ import { assets } from "../assets/assests";
 
 const Navbar = () => {
   return (
-    <div className=" flex md:flex-row flex-col md:justify-end pt-9 container mx-auto">
-
-      <div className="w-[700px] h-20 md:flex justify-between items-center bg-[#a3c0e2] hidden">
+    <header className=" flex md:flex-row flex-col md:justify-end pt-9 container mx-auto">
+      <nav className="w-[700px] h-20 md:flex justify-between items-center bg-[#a3c0e2] hidden">
         <a
           href="https://github.com/richardayikwei"
           target="blank"
@@ -33,8 +32,8 @@ const Navbar = () => {
         >
           <img src={assets.social.xIcon} alt="xIcon" className="w-11" />
         </a>
-      </div>
-    </div>
+      </nav>
+    </header>
   );
 };
 

@@ -17,7 +17,7 @@ function App() {
       {profile.map((richard, idx) => (
         <ProfileInfo key={idx} richard={richard} />
       ))}
-      <div className="container mx-auto bg-[#a3c0e2] py-10 rounded-3xl mt-10">
+      <section className="container mx-auto bg-[#a3c0e2] py-10 rounded-3xl mt-10">
         <div className="flex justify-center">
           <h1 className="text-5xl text-[#1f3550]">Projects</h1>
         </div>
@@ -28,7 +28,7 @@ function App() {
             ))}
           </div>
         </div>
-      </div>
+      </section>
     </div>
   );
 }

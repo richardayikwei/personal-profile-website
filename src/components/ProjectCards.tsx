@@ -6,7 +6,7 @@ type ProjectsProps = {
 
 const ProjectCards = (project: ProjectsProps) => {
   return (
-    <div className="text-[#1f3550] shadow-2xl md:rounded-3xl bg-white space-y-6 md:max-w-[300px]">
+    <section className="text-[#1f3550] shadow-2xl md:rounded-3xl bg-white space-y-6 md:max-w-[300px]">
       <div>
         <img
           src={project.project.image}
@@ -22,10 +22,12 @@ const ProjectCards = (project: ProjectsProps) => {
           <p>{project.project.summary}</p>
         </div>
         <div className="mt-16 mb-6 underline text-lg decoration-[#07101a]">
-          <a href={project.project.link} target="blank">View project</a>
+          <a href={project.project.link} target="blank">
+            View project
+          </a>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 
