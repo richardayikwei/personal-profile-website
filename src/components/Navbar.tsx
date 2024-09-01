@@ -6,7 +6,8 @@ const Navbar = () => {
       <nav className="w-[700px] h-20 md:flex justify-between items-center bg-[#a3c0e2] hidden">
         <a
           href="https://github.com/richardayikwei"
-          target="blank"
+          target="_blank"
+          rel="noopener"
           className="transition ease-linear duration-500 hover:rotate-45 pl-6"
         >
           <img
@@ -17,7 +18,8 @@ const Navbar = () => {
         </a>
         <a
           href="https://www.linkedin.com/in/richard-ayikwei-48b171112/"
-          target="blank"
+          target="_blank"
+          rel="noopener"
           className="transition ease-linear duration-500 hover:rotate-45"
         >
           <img
@@ -27,7 +29,8 @@ const Navbar = () => {
           />
         </a>
         <a
-          href="https://x.com/ayikwei_richard" target="blank"
+          href="https://x.com/ayikwei_richard" target="_blank"
+          rel="noopener"
           className="transition ease-linear duration-500 hover:rotate-45 pr-6"
         >
           <img src={assets.social.xIcon} alt="xIcon" className="w-11" />
