@@ -7,9 +7,14 @@ import ProjectCards from "./components/ProjectCards";
 import Welcome from "./components/Welcome";
 
 function App() {
+
+const backgroundImage = {
+  backgroundImage: `url(${assets.backgroundImage.beach})`
+  };
+  
   return (
     <div
-      style={{ backgroundImage: `url(${assets.backgroundImage.beach})` }}
+      style={backgroundImage}
       className="bg-cover min-h-screen bg-no-repeat font-serif"
     >
       <Navbar />
