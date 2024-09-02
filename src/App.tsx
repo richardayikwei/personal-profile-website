@@ -1,42 +1,25 @@
-import Navbar from "./components/Navbar";
-import Footer from "./components/Footer";
-import { assets } from "./assets/assests";
-import { profile } from "./constant/data";
-import { projects } from "./constant/data";
-import ProfileInfo from "./components/ProfileInfo";
-import ProjectCards from "./components/ProjectCards";
-import Welcome from "./components/Welcome";
+import {
+  Route,
+  createBrowserRouter,
+  createRoutesFromElements,
+  RouterProvider,
+} from "react-router-dom";
+import MainLayout from "./layouts/MainLayout";
+import HomePage from "./pages/HomePage";
+import ProjectsPage from "./pages/ProjectsPage";
+
+const router = createBrowserRouter(
+  createRoutesFromElements(
+    <Route path="/" element={<MainLayout />}>
+      <Route index element={<HomePage />} />
+      <Route path="/projects" element={<ProjectsPage />} />
+      </Route>
+      )
+);
 
 function App() {
-  const backgroundImage = {
-    backgroundImage: `url(${assets.backgroundImage.beach})`,
-  };
 
-  return (
-    <div
-      style={backgroundImage}
-      className="bg-cover min-h-screen bg-no-repeat font-serif"
-    >
-      <Navbar />
-      <Welcome />
-      {profile.map((richard, idx) => (
-        <ProfileInfo key={idx} richard={richard} />
-      ))}
-      <section className="container mx-auto bg-[#a3c0e2] py-10 rounded-3xl mt-10 w-[90%]">
-        <div className="flex justify-center">
-          <h1 className="text-5xl text-[#1f3550]">Projects</h1>
-        </div>
-        <div className="justify-center flex md:flex-row flex-col pt-8">
-          <div className="md:grid md:grid-rows-2 md:grid-cols-3 md:gap-10 space-y-6 md:space-y-0">
-            {projects.map((project, idx) => (
-              <ProjectCards project={project} key={idx} />
-            ))}
-          </div>
-        </div>
-      </section>
-      <Footer />
-    </div>
-  );
+  return <RouterProvider  router={router}/>;
 }
 
 export default App;

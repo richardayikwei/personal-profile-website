@@ -61,11 +61,13 @@ const ProfileInfo = ({ richard }: ProfileProps) => {
         </div>
         <div className="space-y-2 mt-6 ">
           <article>
-            <h1 className="text-4xl bg-[#a3c0e2] w-[264px]">{richard.name}</h1>
-            <h2 className="text-2xl bg-[#a3c0e2] w-[218px]">
+            <h1 className="text-4xl text-white w-[264px]">{richard.name}</h1>
+            <h2 className="text-2xl text-white w-[218px]">
               {richard.position}
             </h2>
-            <p className="text-xl">{richard.motto}</p>
+            <p className="text-xl">
+              <em>{richard.motto}</em>
+            </p>
             <p className="text-lg lg:w-2/3 flex">{richard.cover}</p>
           </article>
 
