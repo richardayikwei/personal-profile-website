@@ -3,7 +3,7 @@ import ProjectCards from "../components/ProjectCards";
 
 const ProjectsPage = () => {
   return (
-    <section className="container mx-auto py-10 mt-10 w-[90%]">
+    <main className="container mx-auto py-10 mt-10 w-[90%]">
       <div className="flex justify-center">
         <h1 className="text-5xl text-[#1f3550]">Projects</h1>
       </div>
@@ -14,7 +14,7 @@ const ProjectsPage = () => {
           ))}
         </div>
       </div>
-    </section>
+    </main>
   );
 };
 

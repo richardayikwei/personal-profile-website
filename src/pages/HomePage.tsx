@@ -11,13 +11,13 @@ const HomePage = () => {
  
 
   return (
-    <div
+    <main
     >
       <Welcome />
       {profile.map((richard, idx) => (
         <ProfileInfo key={idx} richard={richard} />
       ))}
-    </div>
+    </main>
   );
 };
 
