@@ -1,4 +1,5 @@
 import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 import { assets } from "./assets/assests";
 import { profile } from "./constant/data";
 import { projects } from "./constant/data";
@@ -22,7 +23,7 @@ const backgroundImage = {
       {profile.map((richard, idx) => (
         <ProfileInfo key={idx} richard={richard} />
       ))}
-      <section className="container mx-auto bg-[#a3c0e2] py-10 rounded-3xl mt-10">
+      <section className="container mx-auto bg-[#a3c0e2] py-10 rounded-3xl mt-10 w-[90%]">
         <div className="flex justify-center">
           <h1 className="text-5xl text-[#1f3550]">Projects</h1>
         </div>
@@ -34,6 +35,7 @@ const backgroundImage = {
           </div>
         </div>
       </section>
+      <Footer />
     </div>
   );
 }

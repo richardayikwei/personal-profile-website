@@ -1,39 +1,31 @@
-import { assets } from "../assets/assests";
 
 const Navbar = () => {
   return (
-    <header className=" flex md:flex-row flex-col md:justify-end pt-9 container mx-auto">
-      <nav className="w-[700px] h-20 md:flex justify-between items-center bg-[#a3c0e2] hidden">
+    <header className=" flex md:flex-row flex-col md:justify-end pt-9 container mx-auto w-[90%]">
+      <nav className="w-[700px] h-20 md:flex justify-around items-center bg-[#a3c0e2] hidden rounded-3xl">
         <a
-          href="https://github.com/richardayikwei"
-          target="_blank"
-          rel="noopener"
-          className="transition ease-linear duration-500 hover:rotate-45 pl-6"
+          href=""
+          target=""
+          rel=""
+          className="text-[#1f3550] text-lg hover:text-white"
         >
-          <img
-            src={assets.social.githubIcon}
-            alt="githubIcon"
-            className="w-11"
-          />
+          About me
         </a>
         <a
-          href="https://www.linkedin.com/in/richard-ayikwei-48b171112/"
-          target="_blank"
-          rel="noopener"
-          className="transition ease-linear duration-500 hover:rotate-45"
+          href=""
+          target=""
+          rel=""
+          className="text-[#1f3550] text-lg hover:text-white"
         >
-          <img
-            src={assets.social.linkedInIcon}
-            alt="linkedInIcon"
-            className="w-11"
-          />
+          Projects
         </a>
         <a
-          href="https://x.com/ayikwei_richard" target="_blank"
-          rel="noopener"
-          className="transition ease-linear duration-500 hover:rotate-45 pr-6"
+          href=""
+          target=""
+          rel=""
+          className="text-[#1f3550] text-lg hover:text-white"
         >
-          <img src={assets.social.xIcon} alt="xIcon" className="w-11" />
+          Contact me
         </a>
       </nav>
     </header>
