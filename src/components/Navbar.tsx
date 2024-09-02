@@ -1,4 +1,3 @@
-
 const Navbar = () => {
   return (
     <header className=" flex md:flex-row flex-col md:justify-end pt-9 container mx-auto w-[90%]">

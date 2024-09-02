@@ -9,11 +9,14 @@ const ProfileInfo = ({ richard }: ProfileProps) => {
     <section className="flex md:flex-row text-[#1f3550]  mx-auto container w-[90%] ">
       <div className=" mx-auto flex flex-col md:w-1/2 mb-6 w-[90%]">
         <div className=" flex flex-row justify-between">
-          <img
-            src={richard.profilePic}
-            alt="profilePic"
-            className="rounded-full max-h-96"
-          />
+          <figure>
+            <img
+              src={richard.profilePic}
+              alt="profilePic"
+              className="rounded-full max-h-96"
+            />
+          </figure>
+
           <nav className=" flex-col flex justify-between md:hidden  ">
             <a
               href="https://github.com/richardayikwei"
@@ -57,13 +60,16 @@ const ProfileInfo = ({ richard }: ProfileProps) => {
           </nav>
         </div>
         <div className="space-y-2 mt-6 ">
-          <h1 className="text-4xl bg-[#a3c0e2] w-[264px]">{richard.name}</h1>
-          <h2 className="text-2xl bg-[#a3c0e2] w-[218px]">
-            {richard.position}
-          </h2>
-          <p className="text-xl">{richard.motto}</p>
-          <p className="text-lg lg:w-2/3 flex">{richard.cover}</p>
-          <div className=" md:hidden justify-start flex-wrap flex">
+          <article>
+            <h1 className="text-4xl bg-[#a3c0e2] w-[264px]">{richard.name}</h1>
+            <h2 className="text-2xl bg-[#a3c0e2] w-[218px]">
+              {richard.position}
+            </h2>
+            <p className="text-xl">{richard.motto}</p>
+            <p className="text-lg lg:w-2/3 flex">{richard.cover}</p>
+          </article>
+
+          <figure className=" md:hidden justify-start flex-wrap flex">
             <img
               src={richard.stack.html}
               alt=""
@@ -106,10 +112,10 @@ const ProfileInfo = ({ richard }: ProfileProps) => {
               className="w-20"
               loading="lazy"
             />
-          </div>
+          </figure>
         </div>
       </div>
-      <div className=" md:flex md:flex-col hidden md:w-1/2 items-end  justify-between">
+      <figure className=" md:flex md:flex-col hidden md:w-1/2 items-end  justify-between">
         <img src={richard.stack.html} alt="" className="max-w-20" />
         <img src={richard.stack.css} alt="" className="max-w-20" />
         <img src={richard.stack.javaScript} alt="" className="max-w-20" />
@@ -117,7 +123,7 @@ const ProfileInfo = ({ richard }: ProfileProps) => {
         <img src={richard.stack.typeScript} alt="" className="max-w-20" />
         <img src={richard.stack.react} alt="" className="max-w-20" />
         <img src={richard.stack.tailwindCSS} alt="" className="max-w-20" />
-      </div>
+      </figure>
     </section>
   );
 };

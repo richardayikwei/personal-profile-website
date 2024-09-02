@@ -47,7 +47,9 @@ const Footer = () => {
         </a>
       </nav>
       <div className="md:py-6 flex">
-        <p className="text-white">&copy;<em>2024 Richard Ayikwei.</em></p>
+        <p className="text-white">
+          &copy;<em>2024 Richard Ayikwei.</em>
+        </p>
       </div>
     </footer>
   );

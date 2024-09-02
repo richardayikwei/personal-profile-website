@@ -8,11 +8,10 @@ import ProjectCards from "./components/ProjectCards";
 import Welcome from "./components/Welcome";
 
 function App() {
-
-const backgroundImage = {
-  backgroundImage: `url(${assets.backgroundImage.beach})`
+  const backgroundImage = {
+    backgroundImage: `url(${assets.backgroundImage.beach})`,
   };
-  
+
   return (
     <div
       style={backgroundImage}
