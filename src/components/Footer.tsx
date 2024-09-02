@@ -3,7 +3,7 @@ import { assets } from "../assets/assests";
 const Footer = () => {
   return (
     <footer className=" flex  flex-col items-center mt-9 bg-[#a3c0e2] h-[200px]">
-      <div className="flex md:justify-around items-center md:w-[700px] md:h-[150px] h-[100%] py-6 md:flex-row flex-col bg">
+      <div className="flex md:justify-around items-center md:w-[700px] md:h-[150px] h-[100px] md:py-6 py-20 md:flex-row flex-col bg">
         <p className="text-white">
           <em>Email</em>: richardayikweibee@gmail.com
         </p>
@@ -46,6 +46,9 @@ const Footer = () => {
           <img src={assets.social.xIcon} alt="xIcon" className="w-11" />
         </a>
       </nav>
+      <div className="md:py-6 flex">
+        <p className="text-white">&copy;<em>2024 Richard Ayikwei.</em></p>
+      </div>
     </footer>
   );
 };
