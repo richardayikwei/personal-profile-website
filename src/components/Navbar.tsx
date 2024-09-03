@@ -1,29 +1,76 @@
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
   return (
     <header className=" flex md:flex-row flex-col md:justify-end pt-9 container mx-auto w-[90%]">
-      <nav className="w-[700px] h-20 md:flex justify-around items-center bg-[#a3c0e2] hidden rounded-3xl">
-        <Link
+      <nav className="md:w-[700px] h-20 hidden md:flex justify-around items-center bg-[#a3c0e2] rounded-3xl">
+        <NavLink
           to="/"
-          className="text-[#1f3550] text-lg hover:text-white"
+          className={({ isActive }) =>
+            isActive
+              ? "text-lg text-white"
+              : "text-[#1f3550] text-lg hover:text-white"
+          }
         >
           About me
-        </Link>
-        <Link
+        </NavLink>
+        <NavLink
           to="/projects"
-          className="text-[#1f3550] text-lg hover:text-white"
+           className={({ isActive }) =>
+            isActive
+              ? "text-lg text-white"
+              : "text-[#1f3550] text-lg hover:text-white"
+          }
         >
           Projects
-        </Link>
-        <Link
-          to=""
+        </NavLink>
+        <NavLink
+          to="nk"
           target=""
           rel=""
-          className="text-[#1f3550] text-lg hover:text-white"
+           className={({ isActive }) =>
+            isActive
+              ? "text-lg text-white"
+              : "text-[#1f3550] text-lg hover:text-white"
+          }
         >
           Contact me
-        </Link>
+        </NavLink>
+      </nav>
+
+      <nav className=" h-32 flex flex-col justify-around items-center bg-[#a3c0e2] rounded-3xl">
+        <NavLink
+          to="/"
+          className={({ isActive }) =>
+            isActive
+              ? "text-lg text-white"
+              : "text-[#1f3550] text-lg hover:text-white"
+          }
+        >
+          About me
+        </NavLink>
+        <NavLink
+          to="/projects"
+           className={({ isActive }) =>
+            isActive
+              ? "text-lg text-white"
+              : "text-[#1f3550] text-lg hover:text-white"
+          }
+        >
+          Projects
+        </NavLink>
+        <NavLink
+          to="nk"
+          target=""
+          rel=""
+           className={({ isActive }) =>
+            isActive
+              ? "text-lg text-white"
+              : "text-[#1f3550] text-lg hover:text-white"
+          }
+        >
+          Contact me
+        </NavLink>
       </nav>
     </header>
   );
