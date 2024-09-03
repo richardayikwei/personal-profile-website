@@ -6,7 +6,7 @@ type ProfileProps = {
 
 const ProfileInfo = ({ richard }: ProfileProps) => {
   return (
-    <section className="flex md:flex-row text-[#1f3550]  mx-auto container w-[90%] ">
+    <section className="flex md:flex-row text-[#1f3550]  mx-auto container w-[90%] mt-6 md:mt-0">
       <div className=" mx-auto flex flex-col md:w-1/2 mb-6 w-[90%]">
         <div className=" flex flex-row justify-between">
           <figure>
@@ -61,11 +61,13 @@ const ProfileInfo = ({ richard }: ProfileProps) => {
         </div>
         <div className="space-y-2 mt-6 ">
           <article>
-            <h1 className="text-4xl bg-[#a3c0e2] w-[264px]">{richard.name}</h1>
-            <h2 className="text-2xl bg-[#a3c0e2] w-[218px]">
+            <h1 className="text-4xl text-white w-[264px]">{richard.name}</h1>
+            <h2 className="text-2xl text-white w-[218px]">
               {richard.position}
             </h2>
-            <p className="text-xl">{richard.motto}</p>
+            <p className="text-xl">
+              <em>{richard.motto}</em>
+            </p>
             <p className="text-lg lg:w-2/3 flex">{richard.cover}</p>
           </article>
 
