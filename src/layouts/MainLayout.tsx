@@ -7,7 +7,8 @@ import Footer from "../components/Footer";
 const MainLayout = () => {
      const backgroundImage = {
        backgroundImage: `url(${assets.backgroundImage.beach})`,
-     };
+    };
+    
   return (
     <div
       style={backgroundImage}
