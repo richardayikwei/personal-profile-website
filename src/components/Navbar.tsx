@@ -34,7 +34,7 @@ const Navbar = () => {
           Projects
         </NavLink>
         <NavLink
-          to="nk"
+          to="/contact"
           target=""
           rel=""
           className={({ isActive }) =>
@@ -81,7 +81,7 @@ const Navbar = () => {
           Projects
         </NavLink>
         <NavLink
-          to="nk"
+          to="/contact"
           target=""
           rel=""
           className={({ isActive }) =>

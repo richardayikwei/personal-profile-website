@@ -1,6 +1,7 @@
 import { assets } from "../assets/assests"
 import { Profile } from "../types/profile"
 import { Projects } from "../types/projects"
+import { Contacts } from "../types/contacts"
 
 
 export const profile: Profile[] = [
@@ -20,15 +21,15 @@ export const profile: Profile[] = [
             typeScript: assets.stackIcons.typescriptIcon,
         },
     },
-    
+
 ]
 
-export const projects : Projects[] = [
+export const projects: Projects[] = [
     {
         image: assets.projectImages.trafalgar,
         title: 'Trafalgar landing page',
         summary: 'A demo landing page built with react and  based on a figma design.',
-        link: 'https://trafalgar-react-theta.vercel.app/' 
+        link: 'https://trafalgar-react-theta.vercel.app/'
     },
     {
         image: assets.projectImages.photoGallery,
@@ -49,3 +50,9 @@ export const projects : Projects[] = [
         link: 'https://the-black-website.vercel.app/'
     },
 ]
+
+export const contacts: Contacts =
+{
+    image: assets.social.emailIcon,
+    summary: 'richardayikweibee@gmail.com',
+}
