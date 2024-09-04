@@ -11,7 +11,7 @@ const ProjectCards = (project: ProjectsProps) => {
         <img
           src={project.project.image}
           alt={project.project.title}
-          className=" md:rounded-t-3xl"
+          className=" md:rounded-t-3xl max-w-[100%] max-h-[200px]"
         />
       </figure>
 

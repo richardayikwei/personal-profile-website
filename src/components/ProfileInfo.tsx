@@ -13,7 +13,7 @@ const ProfileInfo = ({ richard }: ProfileProps) => {
             <img
               src={richard.profilePic}
               alt="profilePic"
-              className="rounded-full max-h-96"
+              className="rounded-full max-w-72 max-h-96"
             />
           </figure>
 
