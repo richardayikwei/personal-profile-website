@@ -18,7 +18,7 @@ const Navbar = () => {
           className={({ isActive }) =>
             isActive
               ? "text-lg text-white"
-              : "text-[#1f3550] text-lg hover:text-white"
+              : "text-[#1f3550] text-lg md:hover:text-white"
           }
         >
           About me
@@ -28,7 +28,7 @@ const Navbar = () => {
           className={({ isActive }) =>
             isActive
               ? "text-lg text-white"
-              : "text-[#1f3550] text-lg hover:text-white"
+              : "text-[#1f3550] text-lg md:hover:text-white"
           }
         >
           Projects
@@ -40,7 +40,7 @@ const Navbar = () => {
           className={({ isActive }) =>
             isActive
               ? "text-lg text-white"
-              : "text-[#1f3550] text-lg hover:text-white"
+              : "text-[#1f3550] text-lg md:hover:text-white"
           }
         >
           Contact me
@@ -65,7 +65,7 @@ const Navbar = () => {
           className={({ isActive }) =>
             isActive
               ? "text-lg text-white"
-              : "text-[#1f3550] text-lg hover:text-white"
+              : "text-[#1f3550] text-lg md:hover:text-white"
           }
         >
           About me
@@ -75,7 +75,7 @@ const Navbar = () => {
           className={({ isActive }) =>
             isActive
               ? "text-lg text-white"
-              : "text-[#1f3550] text-lg hover:text-white"
+              : "text-[#1f3550] text-lg md:hover:text-white"
           }
         >
           Projects
@@ -87,7 +87,7 @@ const Navbar = () => {
           className={({ isActive }) =>
             isActive
               ? "text-lg text-white"
-              : "text-[#1f3550] text-lg hover:text-white"
+              : "text-[#1f3550] text-lg md:hover:text-white"
           }
         >
           Contact me

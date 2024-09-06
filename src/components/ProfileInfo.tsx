@@ -17,12 +17,12 @@ const ProfileInfo = ({ richard }: ProfileProps) => {
             />
           </figure>
 
-          <nav className=" flex-col flex justify-between md:hidden  ">
+          <nav className=" flex-col flex justify-between md:hidden">
             <a
               href="https://github.com/richardayikwei"
               target="_blank"
               rel="noopener"
-              className="transition ease-linear duration-500 hover:rotate-45"
+              className="transition ease-linear duration-500 md:hover:rotate-45"
             >
               <img
                 src={assets.social.githubIcon}
@@ -35,7 +35,7 @@ const ProfileInfo = ({ richard }: ProfileProps) => {
               href="https://www.linkedin.com/in/richard-ayikwei-48b171112"
               target="_blank"
               rel="noopener"
-              className="transition ease-linear duration-500 hover:rotate-45"
+              className="transition ease-linear duration-500 md:hover:rotate-45"
             >
               <img
                 src={assets.social.linkedInIcon}
@@ -48,7 +48,7 @@ const ProfileInfo = ({ richard }: ProfileProps) => {
               href="https://x.com/ayikwei_richard"
               target="_blank"
               rel="noopener"
-              className="transition ease-linear duration-500 hover:rotate-45"
+              className="transition ease-linear duration-500 md:hover:rotate-45"
             >
               <img
                 src={assets.social.xIcon}
