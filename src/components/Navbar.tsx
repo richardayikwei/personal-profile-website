@@ -48,6 +48,7 @@ const Navbar = () => {
       </nav>
 
       <button
+        title="hamburger menu"
         type="button"
         onClick={handleShow}
         id="menu-btn"
