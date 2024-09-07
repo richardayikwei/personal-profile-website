@@ -65,10 +65,12 @@ const ProfileInfo = ({ richard }: ProfileProps) => {
             <h2 className="text-2xl text-white w-[218px]">
               {richard.position}
             </h2>
-            <p className="text-xl">
+            <p className="text-xl text-[#1e3956]">
               <em>{richard.motto}</em>
             </p>
-            <p className="text-lg lg:w-2/3 flex">{richard.cover}</p>
+            <p className="text-lg text-[#1e3956] lg:w-2/3 flex">
+              {richard.cover}
+            </p>
           </article>
 
           <figure className=" md:hidden justify-start flex-wrap flex">

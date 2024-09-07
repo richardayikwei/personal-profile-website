@@ -12,13 +12,13 @@ const Navbar = () => {
 
   return (
     <header className="relative flex md:flex-row flex-col md:justify-end pt-9 container mx-auto w-[90%]">
-      <nav className="md:w-[700px] h-20 hidden md:flex justify-around items-center bg-[#a3c0e2] rounded-3xl">
+      <nav className="md:w-[700px] h-20 hidden md:flex justify-around items-center bg-[rgb(75,140,214)] rounded-3xl">
         <NavLink
           to="/"
           className={({ isActive }) =>
             isActive
               ? "text-lg text-white"
-              : "text-[#1f3550] text-lg md:hover:text-white"
+              : "text-[#010101] text-lg md:hover:text-white"
           }
         >
           About me
@@ -28,7 +28,7 @@ const Navbar = () => {
           className={({ isActive }) =>
             isActive
               ? "text-lg text-white"
-              : "text-[#1f3550] text-lg md:hover:text-white"
+              : "text-[#010101] text-lg md:hover:text-white"
           }
         >
           Projects
@@ -40,7 +40,7 @@ const Navbar = () => {
           className={({ isActive }) =>
             isActive
               ? "text-lg text-white"
-              : "text-[#1f3550] text-lg md:hover:text-white"
+              : "text-[#010101] text-lg md:hover:text-white"
           }
         >
           Contact me
@@ -59,14 +59,15 @@ const Navbar = () => {
         <span className="hamburger-bottom"></span>
       </button>
 
-
-      <nav className={` transition-opacity h-32 flex ${showNav} flex-col justify-around items-center md:hidden bg-[#a3c0e2] rounded-3xl`}>
+      <nav
+        className={` transition-opacity h-32 flex ${showNav} flex-col justify-around items-center md:hidden bg-[rgb(75,140,214)] rounded-3xl`}
+      >
         <NavLink
           to="/"
           className={({ isActive }) =>
             isActive
               ? "text-lg text-white"
-              : "text-[#1f3550] text-lg md:hover:text-white"
+              : "text-[#010101] text-lg md:hover:text-white"
           }
         >
           About me
@@ -76,7 +77,7 @@ const Navbar = () => {
           className={({ isActive }) =>
             isActive
               ? "text-lg text-white"
-              : "text-[#1f3550] text-lg md:hover:text-white"
+              : "text-[#010101] text-lg md:hover:text-white"
           }
         >
           Projects
@@ -88,7 +89,7 @@ const Navbar = () => {
           className={({ isActive }) =>
             isActive
               ? "text-lg text-white"
-              : "text-[#1f3550] text-lg md:hover:text-white"
+              : "text-[#010101] text-lg md:hover:text-white"
           }
         >
           Contact me
