@@ -68,7 +68,7 @@ const ProfileInfo = ({ richard }: ProfileProps) => {
             <p className="text-xl text-[#1e3956] py-3">
               <em>{richard.motto}</em>
             </p>
-            <p className="text-lg text-[#1e3956] lg:w-2/3 flex text-[18px] py-3">
+            <p className="text-lg text-[#1e3956] lg:w-2/3 flex text-[18px] py-3 leading-relaxed">
               {richard.cover}
             </p>
           </article>

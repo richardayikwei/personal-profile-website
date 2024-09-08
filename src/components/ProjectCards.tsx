@@ -19,10 +19,10 @@ const ProjectCards = (project: ProjectsProps) => {
         <div className="text-2xl mt-1 h-[60px] ">
           <h1>{project.project.title}</h1>
         </div>
-        <div className=" h-[90px] mt-2 text-[18px]">
+        <div className=" h-[90px] mt-2 text-[18px] leading-relaxed">
           <p>{project.project.summary}</p>
         </div>
-        <div className=" mb-6 underline text-lg decoration-[#07101a] text-blue-600 mt-3">
+        <div className=" mb-6 underline text-lg decoration-[#07101a] text-blue-600 mt-3 py-3">
           <a href={project.project.link} target="_blank" rel="noopener">
             View project
           </a>
