@@ -11,7 +11,7 @@ const Navbar = () => {
   }
 
   return (
-    <header className="relative flex md:flex-row flex-col md:justify-end pt-9 container mx-auto w-[90%]">
+    <header className="relative flex md:flex-row flex-col md:justify-end pt-9 container mx-auto w-[90%] ">
       <nav className="md:w-[700px] h-20 hidden md:flex justify-around items-center bg-[rgb(75,140,214)] rounded-3xl">
         <NavLink
           to="/"

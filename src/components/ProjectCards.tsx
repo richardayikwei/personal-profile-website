@@ -16,10 +16,10 @@ const ProjectCards = (project: ProjectsProps) => {
       </figure>
 
       <article className="mx-auto flex flex-col w-[90%] h-2/3">
-        <div className="text-2xl mt-1 h-[90px] ">
+        <div className="text-2xl mt-1 h-[60px] ">
           <h1>{project.project.title}</h1>
         </div>
-        <div className=" h-[90px] mt-2">
+        <div className=" h-[90px] mt-2 text-[18px]">
           <p>{project.project.summary}</p>
         </div>
         <div className=" mb-6 underline text-lg decoration-[#07101a] text-blue-600 mt-3">

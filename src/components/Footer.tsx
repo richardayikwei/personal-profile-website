@@ -2,7 +2,7 @@ import { assets } from "../assets/assests";
 
 const Footer = () => {
   return (
-    <footer className=" flex  flex-col items-center mt-9 bg-[rgb(75,140,214)] h-[200px]">
+    <footer className=" flex text-[18px] flex-col items-center mt-9 bg-[rgb(75,140,214)] h-[200px]">
       <div className="flex md:justify-around items-center md:w-[700px] md:h-[150px] h-[100px] md:py-6 py-20 md:flex-row flex-col bg">
         <p className="text-[#010101] ">
           <em>Email</em>: richardayikweibee@gmail.com
