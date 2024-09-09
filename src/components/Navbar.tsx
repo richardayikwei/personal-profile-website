@@ -60,7 +60,7 @@ const Navbar = () => {
       </button>
 
       <nav
-        className={` transition-opacity h-32 flex ${showNav} flex-col justify-around items-center md:hidden bg-[rgb(75,140,214)] rounded-3xl`}
+        className={` transition-opacity h-32 flex ${showNav} flex-col justify-around items-center md:hidden bg-[#b8a084] rounded-3xl`}
       >
         <NavLink
           to="/"
