@@ -13,7 +13,7 @@ const MainLayout = () => {
   return (
     <div
       style={backgroundImage}
-      className="bg-cover min-h-screen bg-no-repeat font-serif"
+      className="bg-cover bg-center bg-no-repeat font-serif"
     >
       <Navbar />
       <Outlet />
