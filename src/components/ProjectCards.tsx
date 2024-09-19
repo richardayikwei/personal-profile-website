@@ -17,7 +17,7 @@ const ProjectCards = (project: ProjectsProps) => {
 
       <article className="mx-auto flex flex-col w-[90%] h-2/3">
         <div className="text-2xl mt-1 h-[60px] ">
-          <h1>{project.project.title}</h1>
+          <h2>{project.project.title}</h2>
         </div>
         <div className=" h-[90px] mt-2 text-[18px] leading-relaxed">
           <p>{project.project.summary}</p>

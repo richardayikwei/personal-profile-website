@@ -12,21 +12,21 @@ const ProfileInfo = ({ richard }: ProfileProps) => {
           <figure>
             <img
               src={richard.profilePic}
-              alt="profilePic"
+              alt="profile Picture"
               className="rounded-full max-w-72 max-h-96"
             />
           </figure>
 
-          <nav className=" flex-col flex justify-between md:hidden">
+          <nav className=" flex-col flex justify-around md:hidden">
             <a
               href="https://github.com/richardayikwei"
               target="_blank"
               rel="noopener"
-              className="transition ease-linear duration-500 md:hover:rotate-45"
+              className="transition-all ease-linear duration-500 md:hover:rotate-45"
             >
               <img
                 src={assets.social.githubIcon}
-                alt="github"
+                alt="github icon"
                 className="w-11"
                 loading="lazy"
               />
@@ -39,7 +39,7 @@ const ProfileInfo = ({ richard }: ProfileProps) => {
             >
               <img
                 src={assets.social.linkedInIcon}
-                alt="linkedIn"
+                alt="linkedIn icon"
                 className="w-11"
                 loading="lazy"
               />
@@ -52,7 +52,7 @@ const ProfileInfo = ({ richard }: ProfileProps) => {
             >
               <img
                 src={assets.social.xIcon}
-                alt="x"
+                alt="x icon"
                 className="w-11"
                 loading="lazy"
               />
@@ -61,14 +61,14 @@ const ProfileInfo = ({ richard }: ProfileProps) => {
         </div>
         <div className="space-y-2 mt-6 ">
           <article>
-            <h1 className="text-4xl text-white w-[264px]">{richard.name}</h1>
-            <h2 className="text-2xl text-white w-[218px]">
+            <h1 className="text-4xl text-white w-[264px]" aria-label="name">{richard.name}</h1>
+            <h2 className="text-2xl text-white w-[218px]" aria-label="profession">
               {richard.position}
             </h2>
-            <p className="text-xl text-[#1e3956] py-3">
+            <p className="text-xl text-[#1e3956] py-3" aria-label="motto">
               <em>{richard.motto}</em>
             </p>
-            <p className="text-lg text-[#1e3956] lg:w-2/3 flex text-[18px] py-3 leading-relaxed">
+            <p className="text-lg text-[#1e3956] lg:w-2/3 flex text-[18px] py-3 leading-relaxed" aria-label="introduction">
               {richard.cover}
             </p>
           </article>
