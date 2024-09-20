@@ -2,7 +2,7 @@
 
 A porfolio websit of custom design.
 
-+ Technologies
+## Technologies
 
 React and Tailwind CSS
 
