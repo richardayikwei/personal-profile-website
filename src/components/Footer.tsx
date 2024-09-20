@@ -48,7 +48,7 @@ const Footer = () => {
       </nav>
       <div className="md:py-6 flex">
         <p className="text-[#010101]">
-          &copy;<em>2024 Richard Ayikwei.</em>
+          &copy;<em>2024 Richard Ayikwei, All Rights Reserved.</em>
         </p>
       </div>
     </footer>
