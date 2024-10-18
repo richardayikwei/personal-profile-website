@@ -1,5 +1,4 @@
 import { Profile } from "../types/profile";
-import { assets } from "../assets/assests";
 type ProfileProps = {
   richard: Profile;
 };
