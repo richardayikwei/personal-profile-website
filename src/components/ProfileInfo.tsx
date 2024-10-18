@@ -12,7 +12,7 @@ const ProfileInfo = ({ richard }: ProfileProps) => {
             <img
               src={richard.profilePic}
               alt="profile Picture"
-              className="rounded-full md:w-72 md:h-96 sm:w-40"
+              className="rounded-full md:w-72 md:h-96 w-72 h-96"
             />
           </figure>
 
@@ -53,25 +53,25 @@ const ProfileInfo = ({ richard }: ProfileProps) => {
             <img
               src={richard.stack.jQuery}
               alt=""
-              className="w-20"
+              className="w-20 h-20"
               loading="lazy"
             />
             <img
               src={richard.stack.typeScript}
               alt=""
-              className="w-20"
+              className="w-20 h-20"
               loading="lazy"
             />
             <img
               src={richard.stack.react}
               alt=""
-              className="w-20"
+              className="w-20 h-20"
               loading="lazy"
             />
             <img
               src={richard.stack.tailwindCSS}
               alt=""
-              className="w-20"
+              className="w-20 h-20"
               loading="lazy"
             />
           </figure>
