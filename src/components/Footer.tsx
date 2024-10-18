@@ -1,4 +1,5 @@
 import { assets } from "../assets/assests";
+import { socialLinks } from "../constant/data";
 
 const Footer = () => {
   return (
@@ -14,7 +15,7 @@ const Footer = () => {
 
       <nav className="md:w-[300px] md:h-20 flex justify-between items-center w-[200px]">
         <a
-          href="https://github.com/richardayikwei"
+          href={socialLinks.gitHub}
           target="_blank"
           rel="noopener"
         >
@@ -25,7 +26,7 @@ const Footer = () => {
           />
         </a>
         <a
-          href="https://www.linkedin.com/in/richard-ayikwei-48b171112/"
+          href={socialLinks.linkedIn}
           target="_blank"
           rel="noopener"
         >
@@ -36,7 +37,7 @@ const Footer = () => {
           />
         </a>
         <a
-          href="https://x.com/ayikwei_richard"
+          href={socialLinks.x}
           target="_blank"
           rel="noopener"
         >

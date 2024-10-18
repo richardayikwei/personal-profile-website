@@ -2,6 +2,7 @@ import { assets } from "../assets/assests"
 import { Profile } from "../types/profile"
 import { Projects } from "../types/projects"
 import { Contacts } from "../types/contacts"
+import { SocialLinks } from "../types/socialLinks"
 
 
 export const profile: Profile[] = [
@@ -55,4 +56,11 @@ export const contacts: Contacts =
 {
     image: assets.social.emailIcon,
     summary: 'richardayikweibee@gmail.com',
+}
+
+export const socialLinks: SocialLinks = {
+    linkedIn: "https://www.linkedin.com/in/richard-ayikwei-48b171112/",
+    x: "https://x.com/ayikwei_richard",
+    gitHub: "https://github.com/richardayikwei"
+
 }
