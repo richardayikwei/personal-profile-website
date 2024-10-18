@@ -66,7 +66,7 @@ const Navbar = () => {
           to="/"
           className={({ isActive }) =>
             isActive
-              ? "text-lg text-whit[#1318a2]"
+              ? "text-lg text-[#1318a2]"
               : "text-[#010101] text-lg md:hover:text-white"
           }
         >
@@ -76,7 +76,7 @@ const Navbar = () => {
           to="/projects"
           className={({ isActive }) =>
             isActive
-              ? "text-lg text-whit[#1318a2]"
+              ? "text-lg text-[#1318a2]"
               : "text-[#010101] text-lg md:hover:text-white"
           }
         >
@@ -88,7 +88,7 @@ const Navbar = () => {
           rel=""
           className={({ isActive }) =>
             isActive
-              ? "text-lg text-whit[#1318a2]"
+              ? "text-lg text-[#1318a2]"
               : "text-[#010101] text-lg md:hover:text-white"
           }
         >

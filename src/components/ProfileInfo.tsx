@@ -13,51 +13,10 @@ const ProfileInfo = ({ richard }: ProfileProps) => {
             <img
               src={richard.profilePic}
               alt="profile Picture"
-              className="rounded-full md:w-72 md:h-96"
+              className="rounded-full md:w-72 md:h-96 sm:w-40"
             />
           </figure>
 
-          <nav className=" flex-col flex justify-around md:hidden">
-            <a
-              href="https://github.com/richardayikwei"
-              target="_blank"
-              rel="noopener"
-              className="transition-all ease-linear duration-500 md:hover:rotate-45"
-            >
-              <img
-                src={assets.social.githubIcon}
-                alt="github icon"
-                className="w-11 h-11"
-                loading="lazy"
-              />
-            </a>
-            <a
-              href="https://www.linkedin.com/in/richard-ayikwei-48b171112"
-              target="_blank"
-              rel="noopener"
-              className="transition ease-linear duration-500 md:hover:rotate-45"
-            >
-              <img
-                src={assets.social.linkedInIcon}
-                alt="linkedIn icon"
-                className="w-11 h-11"
-                loading="lazy"
-              />
-            </a>
-            <a
-              href="https://x.com/ayikwei_richard"
-              target="_blank"
-              rel="noopener"
-              className="transition ease-linear duration-500 md:hover:rotate-45"
-            >
-              <img
-                src={assets.social.xIcon}
-                alt="x icon"
-                className="w-11 h-11"
-                loading="lazy"
-              />
-            </a>
-          </nav>
         </div>
         <div className="space-y-2 mt-6 ">
           <article>

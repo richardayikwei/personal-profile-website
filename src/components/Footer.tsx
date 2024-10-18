@@ -12,7 +12,7 @@ const Footer = () => {
         </p>
       </div>
 
-      <nav className="md:w-[300px] md:h-20 md:flex justify-between items-center hidden">
+      <nav className="md:w-[300px] md:h-20 flex justify-between items-center">
         <a
           href="https://github.com/richardayikwei"
           target="_blank"
