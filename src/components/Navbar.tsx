@@ -17,7 +17,7 @@ const Navbar = () => {
           to="/"
           className={({ isActive }) =>
             isActive
-              ? "text-lg text-white"
+              ? "text-lg text-white drop-shadow-2xl"
               : "text-[#010101] text-lg md:hover:text-white"
           }
         >
@@ -27,7 +27,7 @@ const Navbar = () => {
           to="/projects"
           className={({ isActive }) =>
             isActive
-              ? "text-lg text-white"
+              ? "text-lg text-white drop-shadow-2xl"
               : "text-[#010101] text-lg md:hover:text-white"
           }
         >
@@ -39,7 +39,7 @@ const Navbar = () => {
           rel=""
           className={({ isActive }) =>
             isActive
-              ? "text-lg text-white"
+              ? "text-lg text-white drop-shadow-2xl"
               : "text-[#010101] text-lg md:hover:text-white"
           }
         >
@@ -66,7 +66,7 @@ const Navbar = () => {
           to="/"
           className={({ isActive }) =>
             isActive
-              ? "text-lg text-white"
+              ? "text-lg text-white drop-shadow-2xl"
               : "text-[#010101] text-lg md:hover:text-white"
           }
         >
@@ -76,7 +76,7 @@ const Navbar = () => {
           to="/projects"
           className={({ isActive }) =>
             isActive
-              ? "text-lg text-white"
+              ? "text-lg text-white drop-shadow-2xl"
               : "text-[#010101] text-lg md:hover:text-white"
           }
         >
@@ -88,7 +88,7 @@ const Navbar = () => {
           rel=""
           className={({ isActive }) =>
             isActive
-              ? "text-lg text-white"
+              ? "text-lg text-white drop-shadow-2xl"
               : "text-[#010101] text-lg md:hover:text-white"
           }
         >

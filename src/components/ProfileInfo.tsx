@@ -13,7 +13,7 @@ const ProfileInfo = ({ richard }: ProfileProps) => {
             <img
               src={richard.profilePic}
               alt="profile Picture"
-              className="rounded-full max-w-72 max-h-96"
+              className="rounded-full md:w-72 md:h-96"
             />
           </figure>
 
@@ -27,7 +27,7 @@ const ProfileInfo = ({ richard }: ProfileProps) => {
               <img
                 src={assets.social.githubIcon}
                 alt="github icon"
-                className="w-11"
+                className="w-11 h-11"
                 loading="lazy"
               />
             </a>
@@ -40,7 +40,7 @@ const ProfileInfo = ({ richard }: ProfileProps) => {
               <img
                 src={assets.social.linkedInIcon}
                 alt="linkedIn icon"
-                className="w-11"
+                className="w-11 h-11"
                 loading="lazy"
               />
             </a>
@@ -53,7 +53,7 @@ const ProfileInfo = ({ richard }: ProfileProps) => {
               <img
                 src={assets.social.xIcon}
                 alt="x icon"
-                className="w-11"
+                className="w-11 h-11"
                 loading="lazy"
               />
             </a>
@@ -77,19 +77,19 @@ const ProfileInfo = ({ richard }: ProfileProps) => {
             <img
               src={richard.stack.html}
               alt=""
-              className="w-20"
+              className="w-20 h-20"
               loading="lazy"
             />
             <img
               src={richard.stack.css}
               alt=""
-              className="w-20"
+              className="w-20 h-20"
               loading="lazy"
             />
             <img
               src={richard.stack.javaScript}
               alt=""
-              className="w-20"
+              className="w-20 h-20"
               loading="lazy"
             />
             <img
@@ -120,13 +120,13 @@ const ProfileInfo = ({ richard }: ProfileProps) => {
         </div>
       </div>
       <figure className=" md:flex md:flex-col hidden md:w-1/2 items-end  justify-between">
-        <img src={richard.stack.html} alt="" className="max-w-20" />
-        <img src={richard.stack.css} alt="" className="max-w-20" />
-        <img src={richard.stack.javaScript} alt="" className="max-w-20" />
-        <img src={richard.stack.jQuery} alt="" className="max-w-20" />
-        <img src={richard.stack.typeScript} alt="" className="max-w-20" />
-        <img src={richard.stack.react} alt="" className="max-w-20" />
-        <img src={richard.stack.tailwindCSS} alt="" className="max-w-20" />
+        <img src={richard.stack.html} alt="" className="w-20 h-20" />
+        <img src={richard.stack.css} alt="" className="w-20 h-20" />
+        <img src={richard.stack.javaScript} alt="" className="w-20 h-20" />
+        <img src={richard.stack.jQuery} alt="" className="w-20 h-20" />
+        <img src={richard.stack.typeScript} alt="" className="w-20 h-20" />
+        <img src={richard.stack.react} alt="" className="w-20 h-20" />
+        <img src={richard.stack.tailwindCSS} alt="" className="w-20 h-20" />
       </figure>
     </section>
   );

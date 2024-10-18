@@ -22,7 +22,7 @@ const Footer = () => {
           <img
             src={assets.social.githubIcon}
             alt="githubIcon"
-            className="w-11"
+            className="w-11 h-11"
           />
         </a>
         <a
@@ -34,7 +34,7 @@ const Footer = () => {
           <img
             src={assets.social.linkedInIcon}
             alt="linkedInIcon"
-            className="w-11"
+            className="w-11 h-11"
           />
         </a>
         <a
@@ -43,7 +43,7 @@ const Footer = () => {
           rel="noopener"
           className="transition ease-linear duration-500 hover:rotate-45 pr-6"
         >
-          <img src={assets.social.xIcon} alt="xIcon" className="w-11" />
+          <img src={assets.social.xIcon} alt="xIcon" className="w-11 h-11" />
         </a>
       </nav>
       <div className="md:py-6 flex">
