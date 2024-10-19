@@ -11,11 +11,11 @@ import profile1 from './profilePic/profile1.avif';
 import githubIcon from './social/github.svg';
 import facebookIcon from './social/icon-facebook.svg';
 import linkedInIcon from './social/linkedin.svg';
-import porfolio from './projectImages/porfolio.png';
-import trafalgar from './projectImages/trafalgarpage.png';
+import porfolio from './projectImages/porfolio.avif';
+import trafalgar from './projectImages/trafalgarpage.avif';
 import theBlackWebsite from './projectImages/theBlackWebsite.png';
 import xIcon from './social/xIcon.png';
-import photoGallery from './projectImages/photoGallery.png';
+import photoGallery from './projectImages/photoGallery.avif';
 import emailIcon from './social/emailIcon.png'
 
 export const assets = {

@@ -1,6 +1,3 @@
-
-
-
 import { profile } from "../constant/data";
 
 import ProfileInfo from "../components/ProfileInfo";
