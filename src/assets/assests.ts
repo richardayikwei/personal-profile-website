@@ -1,4 +1,4 @@
-import logo1 from './logos/logo1.svg';
+import logo1 from './logos/logo1.ico';
 import cssIcon from './stackIcons/css.svg';
 import htmlIcon from './stackIcons/html.svg';
 import javascriptIcon from './stackIcons/javascript.svg';
