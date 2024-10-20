@@ -4,7 +4,7 @@ const ContactPage = () => {
   return (
     <main className="container mx-auto py-10 mt-10 w-[90%] flex items-center justify-center h-[60vh]">
       <figure>
-        <img  className="md:w-36 w-24" src={contacts.image} alt="" />
+        <img  className="md:w-36 md:h-36 w-24 h-24" src={contacts.image} alt="" />
       </figure>
       <article>
         <p className="md:text-4xl text-lg text-white ">{contacts.summary}</p>

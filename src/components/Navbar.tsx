@@ -35,11 +35,9 @@ const Navbar = () => {
         </NavLink>
         <NavLink
           to="/contact"
-          target=""
-          rel=""
           className={({ isActive }) =>
             isActive
-              ? "text-lg text-whit[#1318a2]"
+              ? "text-lg text-[#1318a2]"
               : "text-[#010101] text-lg md:hover:text-white"
           }
         >
@@ -84,8 +82,6 @@ const Navbar = () => {
         </NavLink>
         <NavLink
           to="/contact"
-          target=""
-          rel=""
           className={({ isActive }) =>
             isActive
               ? "text-lg text-[#1318a2]"
