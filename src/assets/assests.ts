@@ -17,6 +17,7 @@ import theBlackWebsite from './projectImages/theBlackWebsite.png';
 import xIcon from './social/xIcon.png';
 import photoGallery from './projectImages/photoGallery.avif';
 import emailIcon from './social/emailIcon.png'
+import travelerGame from './projectImages/travelergame.avif'
 
 export const assets = {
     logos: {
@@ -53,7 +54,7 @@ export const assets = {
         porfolio,
         trafalgar,
         theBlackWebsite,
-        photoGallery
+        photoGallery,
+        travelerGame,
     }
-
 }

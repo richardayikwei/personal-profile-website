@@ -45,11 +45,18 @@ export const projects: Projects[] = [
         link: 'https://www.richardayikwei.com/'
     },
     {
+        image: assets.projectImages.travelerGame,
+        title: 'Traveler Game',
+        summary: 'A game website built with React using Redux to manage state.',
+        link: 'https://redux-travel-game.vercel.app/'
+    },
+    {
         image: assets.projectImages.theBlackWebsite,
         title: 'The black website',
         summary: 'A demo website built with jQuery with animation.',
         link: 'https://the-black-website.vercel.app/'
     },
+
 ]
 
 export const contacts: Contacts =
