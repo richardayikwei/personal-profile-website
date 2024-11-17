@@ -45,7 +45,7 @@ export const projects: Projects[] = [
         link: 'https://www.richardayikwei.com/'
     },
     {
-        image: assets.projectImages.travelerGame,
+        image: assets.projectImages.travellerGame,
         title: 'Traveler Game',
         summary: 'A game website built with React using Redux to manage state.',
         link: 'https://redux-travel-game.vercel.app/'
