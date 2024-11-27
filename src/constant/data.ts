@@ -53,7 +53,7 @@ export const projects: Projects[] = [
     {
         image: assets.projectImages.theBlackWebsite,
         title: 'The black website',
-        summary: 'A demo website built with jQuery with animation.',
+        summary: 'A demo website built with jQuery emphasizing DOM manipulation.',
         link: 'https://the-black-website.vercel.app/'
     },
 
