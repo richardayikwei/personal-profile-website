@@ -9,9 +9,9 @@ export const profile: Profile[] = [
     {
         profilePic: assets.profilePic.profile1,
         name: 'Ayikwei Richard',
-        position: 'Frontend Developer',
+        position: 'Data Analyst & Frontend Developer',
         motto: 'Change is constant',
-        cover: 'I am a front-end developer with a love for React. I am passionate about programming, technology, and creating visually appealing websites and apps with easy-to-navigate UIs.',
+        cover: "Hi, I'm a data analyst with a frontend edge and an operations backbone. I use data, design, and code to help people make better decisions. I specialize in transforming complex problems into clean, actionable insights—whether through Python models, Power BI dashboards, or intuitive React interfaces.With a background in political science, operations, and tech, I bring a systems- thinking approach to everything I build. I'm passionate about making data useful, interfaces intuitive, and decisions smarter.",
         stack: {
             css: assets.stackIcons.cssIcon,
             html: assets.stackIcons.htmlIcon,
