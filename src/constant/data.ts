@@ -34,7 +34,7 @@ export const articles = [
     },
     {
         image: assets.articleImages.restaurant,
-        title: 'Your Corner Restaurant Might Need a Data Analyst (or Even a Data Scientist)',
+        title: 'Your Corner Restaurant Might Need a Data Analyst',
         summary: 'An Article on how data can help anyone to improve their business',
         link: 'https://medium.com/@richardayikweibee/your-corner-restaurant-might-need-a-data-analyst-or-even-a-data-scientist-b8495fa369b4'
     },
