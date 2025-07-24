@@ -27,19 +27,19 @@ export const profile: Profile[] = [
 
 export const articles = [
     {
-        image: assets.projectImages.trafalgar,
+        image: assets.articleImages.power,
         title: 'Having Data May Not Be Enough — You Need to Check Its Power Level',
         summary: 'An Article on the effects of Power on data and data analysis',
         link: 'https://medium.com/@richardayikweibee/having-data-may-not-be-enough-you-need-to-check-its-power-level-1ee0376ad57f'
     },
     {
-        image: assets.projectImages.trafalgar,
+        image: assets.articleImages.restaurant,
         title: 'Your Corner Restaurant Might Need a Data Analyst (or Even a Data Scientist)',
         summary: 'An Article on how data can help anyone to improve their business',
         link: 'https://medium.com/@richardayikweibee/your-corner-restaurant-might-need-a-data-analyst-or-even-a-data-scientist-b8495fa369b4'
     },
     {
-        image: assets.projectImages.trafalgar,
+        image: assets.articleImages.fitness,
         title: 'Your Calendar Might Predict Your Fitness Habits',
         summary: 'An Article on how data can help improve fitness and general life',
         link: 'https://medium.com/@richardayikweibee/your-calendar-might-predict-your-fitness-habits-a31db5a90685'
