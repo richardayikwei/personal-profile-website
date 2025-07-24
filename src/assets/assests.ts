@@ -21,6 +21,8 @@ import travellerGame from './projectImages/travellerGame.avif'
 import fitness from './articleImages/fitness_article.png'
 import power from './articleImages/power_article.png'
 import restaurant from './articleImages/restaurant_article.png'
+import python from './stackIcons/python.png'
+import BI from './stackIcons/Power_BI.png'
 
 export const assets = {
     logos: {
@@ -35,6 +37,8 @@ export const assets = {
         reactIcon,
         tailwindcssIcon,
         typescriptIcon,
+        python,
+        BI
     },
 
     backgroundImage: {
