@@ -18,6 +18,9 @@ import xIcon from './social/xIcon.png';
 import photoGallery from './projectImages/photoGallery.avif';
 import emailIcon from './social/emailIcon.png'
 import travellerGame from './projectImages/travellerGame.avif'
+import fitness from './articleImages/fitness_article.png'
+import power from './articleImages/power_article.png'
+import restaurant from './articleImages/restaurant_article.png'
 
 export const assets = {
     logos: {
@@ -56,5 +59,11 @@ export const assets = {
         theBlackWebsite,
         photoGallery,
         travellerGame,
+    },
+
+    articleImages: {
+        fitness,
+        power,
+        restaurant,
     }
 }
