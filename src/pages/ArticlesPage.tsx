@@ -1,5 +1,5 @@
-import { projects } from "../constant/data";
-import ProjectCards from "../components/ProjectCards";
+import { articles } from "../constant/data";
+import ArticleCards from "../components/ArticleCards";
 
 const ArticlesPage = () => {
   return (
@@ -9,8 +9,8 @@ const ArticlesPage = () => {
       </div>
       <div className="justify-center flex md:flex-row flex-col pt-8">
         <div className="md:grid md:grid-rows-2 md:grid-cols-3 md:gap-10 space-y-6 md:space-y-0">
-          {projects.map((project, idx) => (
-            <ProjectCards project={project} key={idx} />
+          {articles.map((article, idx) => (
+            <ArticleCards article={article} key={idx} />
           ))}
         </div>
       </div>
