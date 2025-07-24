@@ -9,12 +9,12 @@ export const profile: Profile[] = [
     {
         profilePic: assets.profilePic.profile1,
         name: 'Ayikwei Richard',
-        position: 'Frontend Developer',
+        position: 'Data Analyst & Frontend Developer',
         motto: 'Change is constant',
-        cover: 'I am a front-end developer with a love for React. I am passionate about programming, technology, and creating visually appealing websites and apps with easy-to-navigate UIs.',
+        cover: "Hi, I'm a data analyst with a frontend edge and an operations backbone. I use data, design, and code to help people make better decisions. I specialize in transforming complex problems into clean, actionable insights—whether through Python models, Power BI dashboards, or intuitive React interfaces.With a background in political science, operations, and tech, I bring a systems- thinking approach to everything I build. I'm passionate about making data useful, interfaces intuitive, and decisions smarter.",
         stack: {
-            css: assets.stackIcons.cssIcon,
-            html: assets.stackIcons.htmlIcon,
+            css: assets.stackIcons.BI,
+            html: assets.stackIcons.python,
             javaScript: assets.stackIcons.javascriptIcon,
             jQuery: assets.stackIcons.jqueryIcon,
             react: assets.stackIcons.reactIcon,
@@ -23,6 +23,27 @@ export const profile: Profile[] = [
         },
     },
 
+]
+
+export const articles = [
+    {
+        image: assets.articleImages.power,
+        title: 'Having Data May Not Be Enough — You Need to Check Its Power Level',
+        summary: 'An Article on the effects of Power on data and data analysis',
+        link: 'https://medium.com/@richardayikweibee/having-data-may-not-be-enough-you-need-to-check-its-power-level-1ee0376ad57f'
+    },
+    {
+        image: assets.articleImages.restaurant,
+        title: 'Your Corner Restaurant Might Need a Data Analyst',
+        summary: 'An Article on how data can help anyone to improve their business',
+        link: 'https://medium.com/@richardayikweibee/your-corner-restaurant-might-need-a-data-analyst-or-even-a-data-scientist-b8495fa369b4'
+    },
+    {
+        image: assets.articleImages.fitness,
+        title: 'Your Calendar Might Predict Your Fitness Habits',
+        summary: 'An Article on how data can help improve fitness and general life',
+        link: 'https://medium.com/@richardayikweibee/your-calendar-might-predict-your-fitness-habits-a31db5a90685'
+    },
 ]
 
 export const projects: Projects[] = [

@@ -24,6 +24,16 @@ const Navbar = () => {
           About me
         </NavLink>
         <NavLink
+          to="/articles"
+          className={({ isActive }) =>
+            isActive
+              ? "text-lg text-[#1318a2]"
+              : "text-[#010101] text-lg md:hover:text-white"
+          }
+        >
+          Articles
+        </NavLink>
+        <NavLink
           to="/projects"
           className={({ isActive }) =>
             isActive
@@ -69,6 +79,16 @@ const Navbar = () => {
           }
         >
           About me
+        </NavLink>
+        <NavLink
+          to="/articles"
+          className={({ isActive }) =>
+            isActive
+              ? "text-lg text-[#1318a2]"
+              : "text-[#010101] text-lg md:hover:text-white"
+          }
+        >
+          Articles
         </NavLink>
         <NavLink
           to="/projects"
