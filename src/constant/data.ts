@@ -66,6 +66,12 @@ export const projects: Projects[] = [
         link: 'https://www.richardayikwei.com/'
     },
     {
+        image: assets.projectImages.passwordGenerator,
+        title: 'Password Generator',
+        summary: 'A password generator website built with React and Python(backend).',
+        link: 'https://finite-frontend.vercel.app/'
+    },
+    {
         image: assets.projectImages.travellerGame,
         title: 'Traveler Game',
         summary: 'A game website built with React using Redux to manage state.',
