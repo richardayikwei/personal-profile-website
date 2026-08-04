@@ -9,7 +9,7 @@ export const profile: Profile[] = [
     {
         profilePic: assets.profilePic.profile1,
         name: 'Ayikwei Richard',
-        position: 'Junior Software Engineer (Python & Frontend)',
+        position: 'Software Engineer',
         motto: 'Change is constant',
         cover: "Hi, I'm a software engineer with experience in Python, FastAPI, and React. I've built and deployed web applications and APIs, and I enjoy solving real-world problems through code. My background includes working with data, supporting systems, and exploring how software can improve everyday processes. I'm particularly interested in backend development, APIs, and building reliable, user- friendly applications. I'm continuously learning and improving my skills while working on projects that combine functionality, performance, and good user experience.",
         stack: {
