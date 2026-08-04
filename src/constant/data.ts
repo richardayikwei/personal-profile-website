@@ -33,6 +33,12 @@ export const articles = [
         link: 'https://medium.com/@richardayikweibee/building-a-personal-remote-linux-server-part-1-why-i-decided-to-build-my-own-cloud-d35ac693952d'
     },
     {
+        image: assets.articleImages.code,
+        title: 'Who Owns Your Code',
+        summary: 'An Article on AI and code ownership',
+        link: 'https://medium.com/@richardayikweibee/who-owns-your-code-e9195eccf33b'
+    },
+    {
         image: assets.articleImages.power,
         title: 'Having Data May Not Be Enough — You Need to Check Its Power Level',
         summary: 'An Article on the effects of Power on data and data analysis',
