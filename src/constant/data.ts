@@ -39,6 +39,12 @@ export const articles = [
         link: 'https://medium.com/@richardayikweibee/who-owns-your-code-e9195eccf33b'
     },
     {
+        image: assets.articleImages.aws,
+        title: "An Analyst's Notes on AWS Services",
+        summary: 'An Article on managing AWS cost',
+        link: 'https://medium.com/@richardayikweibee/an-analysts-notes-on-aws-services-keeping-costs-low-and-analyzing-your-spend-7925ed90e6f4'
+    },
+    {
         image: assets.articleImages.power,
         title: 'Having Data May Not Be Enough — You Need to Check Its Power Level',
         summary: 'An Article on the effects of Power on data and data analysis',
