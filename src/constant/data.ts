@@ -27,6 +27,12 @@ export const profile: Profile[] = [
 
 export const articles = [
     {
+        image: assets.articleImages.server,
+        title: 'Building a Personal Remote Linux Server (Part 1)',
+        summary: 'A series on turning an old Linux laptop into a development server.',
+        link: 'https://medium.com/@richardayikweibee/building-a-personal-remote-linux-server-part-1-why-i-decided-to-build-my-own-cloud-d35ac693952d'
+    },
+    {
         image: assets.articleImages.power,
         title: 'Having Data May Not Be Enough — You Need to Check Its Power Level',
         summary: 'An Article on the effects of Power on data and data analysis',

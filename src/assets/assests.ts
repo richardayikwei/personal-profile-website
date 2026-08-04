@@ -24,6 +24,7 @@ import power from './articleImages/power_article.avif'
 import restaurant from './articleImages/restaurant_article.avif'
 import python from './stackIcons/python.png'
 import BI from './stackIcons/Power_BI.png'
+import server from './articleImages/server.webp'
 
 export const assets = {
     logos: {
@@ -71,5 +72,6 @@ export const assets = {
         fitness,
         power,
         restaurant,
+        server,
     }
 }
