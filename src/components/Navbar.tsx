@@ -6,13 +6,18 @@ const Navbar = () => {
   const [btnX, setBtnX] = useState("");
 
   function handleShow() {
-    showNav === "opacity-0" ? setShowNav("opacity-1") : setShowNav("opacity-0");
-    showNav === "opacity-0" ? setBtnX("open") : setBtnX("");
+    if (showNav === "opacity-0") {
+      setShowNav("opacity-1");
+      setBtnX("open");
+    } else {
+      setShowNav("opacity-0");
+      setBtnX("");
+    }
   }
 
   return (
-    <header className="relative flex md:flex-row flex-col md:justify-end pt-9 container mx-auto w-[90%] ">
-      <nav className="md:w-[700px] h-20 hidden md:flex justify-around items-center bg-[#b8a084] rounded-3xl">
+    <header className="relative flex flex-col md:flex-row md:justify-end pt-9 container mx-auto w-[90%]">
+      <nav className="hidden md:flex md:w-[700px] h-20 justify-around items-center bg-[#b8a084] rounded-3xl">
         <NavLink
           to="/"
           className={({ isActive }) =>
@@ -23,6 +28,7 @@ const Navbar = () => {
         >
           About me
         </NavLink>
+
         <NavLink
           to="/articles"
           className={({ isActive }) =>
@@ -33,6 +39,7 @@ const Navbar = () => {
         >
           Articles
         </NavLink>
+
         <NavLink
           to="/projects"
           className={({ isActive }) =>
@@ -43,6 +50,7 @@ const Navbar = () => {
         >
           Projects
         </NavLink>
+
         <NavLink
           to="/contact"
           className={({ isActive }) =>
@@ -58,9 +66,9 @@ const Navbar = () => {
       <button
         title="hamburger menu"
         type="button"
-        onClick={handleShow}
         id="menu-btn"
-        className={`block ${btnX} hamburger md:hidden focus:outline-none`}
+        onClick={handleShow}
+        className={`block md:hidden hamburger ${btnX} focus:outline-none`}
       >
         <span className="hamburger-top"></span>
         <span className="hamburger-middle"></span>
@@ -68,7 +76,7 @@ const Navbar = () => {
       </button>
 
       <nav
-        className={` transition-opacity h-32 flex ${showNav} flex-col justify-around items-center md:hidden bg-[#b8a084] rounded-3xl`}
+        className={`transition-opacity h-32 flex flex-col justify-around items-center md:hidden bg-[#b8a084] rounded-3xl ${showNav}`}
       >
         <NavLink
           to="/"
@@ -80,6 +88,7 @@ const Navbar = () => {
         >
           About me
         </NavLink>
+
         <NavLink
           to="/articles"
           className={({ isActive }) =>
@@ -90,6 +99,7 @@ const Navbar = () => {
         >
           Articles
         </NavLink>
+
         <NavLink
           to="/projects"
           className={({ isActive }) =>
@@ -100,6 +110,7 @@ const Navbar = () => {
         >
           Projects
         </NavLink>
+
         <NavLink
           to="/contact"
           className={({ isActive }) =>
